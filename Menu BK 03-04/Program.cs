@@ -34,9 +34,12 @@ switch (bebida)
     {
         Console.WriteLine($"Gelo na bebida");
     }
-    else 
+    else if (gelo == "N")
     {Console.WriteLine($"Bebida sem gelo");
     }
+    else 
+    Console.WriteLine($"Comando nao aceito");
+    
     break;
 
     case 2:
@@ -46,9 +49,12 @@ switch (bebida)
     {
         Console.WriteLine($"Gelo na bebida");
     }
-    else 
+    else if (gelo == "N")
     {Console.WriteLine($"Bebida sem gelo");
     }
+    else 
+    Console.WriteLine($"Comando nao aceito");
+    
     break;
 
     case 3:
@@ -58,9 +64,11 @@ switch (bebida)
     {
         Console.WriteLine($"Gelo na bebida");
     }
-    else 
+    else if (gelo == "N")
     {Console.WriteLine($"Bebida sem gelo");
     }
+    else 
+    Console.WriteLine($"Comando nao aceito");
     break;
 
     case 4:
@@ -70,9 +78,11 @@ switch (bebida)
     {
         Console.WriteLine($"Gelo na bebida");
     }
-    else 
+    else if (gelo == "N")
     {Console.WriteLine($"Bebida sem gelo");
     }
+    else 
+    Console.WriteLine($"Comando nao aceito");
     break;
     
     default:
